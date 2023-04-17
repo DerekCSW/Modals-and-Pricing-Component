@@ -1,0 +1,224 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+  </head>
+
+<body>
+
+  
+        <!-- Payment details -->
+        <div class="space-y-6 sm:px-6 lg:col-span-9 lg:px-0">
+          <section aria-labelledby="payment-details-heading">
+            <form action="#" method="POST">
+              <div class="shadow sm:overflow-hidden sm:rounded-md">
+                <div class="bg-white px-4 py-6 sm:p-6">
+                  <div>
+                    <h2 id="payment-details-heading" class="text-lg font-medium leading-6 text-gray-900">Profile</h2>
+                    <p class="mt-1 text-sm text-gray-500">Update your personal info here.</p>
+                  </div>
+  
+                  <div class="mt-6 grid grid-cols-4 gap-6">
+                    <div class="col-span-4 sm:col-span-2">
+                      <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                      <input type="text" name="first-name" id="first-name" autocomplete="cc-given-name" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                    </div>
+  
+                    <div class="col-span-4 sm:col-span-2">
+                      <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                      <input type="text" name="last-name" id="last-name" autocomplete="cc-family-name" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                    </div>
+  
+                    <div class="col-span-4 sm:col-span-2">
+                      <label for="email-address" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                      <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                    </div>
+  
+                    <div class="col-span-4 sm:col-span-1">
+                      <label for="expiration-date" class="block text-sm font-medium leading-6 text-gray-900">Company Name</label>
+                      <input type="text" name="Company Name" id="Company Name" autocomplete="cc-exp" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                    </div>
+
+                    <div class="col-span-4 sm:col-span-1">
+                        <label for="expiration-date" class="block text-sm font-medium leading-6 text-gray-900">Role</label>
+                        <input type="text" name="role" id="role" autocomplete="cc-exp" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                      </div>
+  
+                  
+  
+                    <div class="col-span-4 sm:col-span-2">
+                      <label for="country" class="block text-sm font-medium leading-6 text-gray-900">States</label>
+                      <select id="country" name="country" autocomplete="country-name" class="mt-2 block w-full rounded-md border-0 bg-white px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                        <option>Selangor</option>
+                        <option>Kuala Lumpur</option>
+                        <option>Terrenganu</option>
+                        <option>Penang</option>
+                        <option>Melaka</option>
+                        <option>Pahang</option>
+                        <option>Kedah</option>
+                        <option>Johor</option>
+                        <option>Perak</option>
+                        <option>Perlis</option>
+                        <option>Negeri Sembilan</option>
+                        <option>Labuan</option>
+                        <option>Sabah</option>
+                        <option>Sarawak</option>
+                      </select>
+                    </div>
+  
+                    <div class="col-span-4 sm:col-span-2">
+                      <label for="postal-code" class="block text-sm font-medium leading-6 text-gray-900">ZIP / Postal code</label>
+                      <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-2 block w-full rounded-md border-0 px-3 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-900 sm:text-sm sm:leading-6">
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
+                  <button type="submit" class="inline-flex justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Save</button>
+                </div>
+              </div>
+            </form>
+          </section>
+  
+          <!-- Plan -->
+          <section aria-labelledby="plan-heading">
+            <form action="#" method="POST">
+              <div class="shadow sm:overflow-hidden sm:rounded-md">
+                <div class="space-y-6 bg-white px-4 py-6 sm:p-6">
+                  <div>
+                    <h2 id="plan-heading" class="text-lg font-medium leading-6 text-gray-900">Pricing Plans</h2>
+                  </div>
+
+
+
+                  <fieldset class="grid grid-cols-3 bg-blue-50  gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200" style="width: 300px; ">
+                    <legend class="sr-only">Payment frequency</legend>
+            
+                    <!-- Checked: "bg-indigo-600 text-white", Not Checked: "text-gray-500" -->
+                    <label class="cursor-pointer rounded-full px-2.5 py-1">
+                      <input type="radio" name="frequency" value="monthly" class="sr-only">
+                      <span>3 months</span>
+                    </label>
+            
+                    <!-- Checked: "bg-indigo-600 text-white", Not Checked: "text-gray-500" -->
+                    <label class="cursor-pointer rounded-full px-2.5 py-1">
+                      <input type="radio" name="frequency" value="annually" class="sr-only">
+                      <span>6 months</span>
+                    </label>
+          
+                     <!-- Checked: "bg-indigo-600 text-white", Not Checked: "text-gray-500" -->
+                     <label class="cursor-pointer rounded-full px-2.5 py-1">
+                      <input type="radio" name="frequency" value="annually" class="sr-only">
+                      <span>12 months</span>
+                    </label>
+          
+                  </fieldset>
+
+  
+                  <fieldset>
+                    <legend class="sr-only">Pricing plans</legend>
+                    <div class="relative -space-y-px rounded-md bg-white">
+                      <!-- Checked: "z-10 border-orange-200 bg-orange-50", Not Checked: "border-gray-200" -->
+                      <label class="rounded-tl-md rounded-tr-md relative flex cursor-pointer flex-col border p-4 focus:outline-none md:grid md:grid-cols-3 md:pr-6">
+                        <span class="flex items-center text-sm">
+                          <input type="radio" name="pricing-plan" value="Startup" class="h-4 w-4 text-orange-500 border-gray-300 focus:ring-gray-900" aria-labelledby="pricing-plans-0-label" aria-describedby="pricing-plans-0-description-0 pricing-plans-0-description-1">
+                          <span id="pricing-plans-0-label" class="ml-3 font-medium text-gray-900">Starter</span>
+                        </span>
+                        <span id="pricing-plans-0-description-0" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center">
+                          <!-- Checked: "text-orange-900", Not Checked: "text-gray-900" -->
+                          <span class="font-medium">RM0 / mo / project</span>
+                          <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                        
+                        </span>
+                        <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                        <span id="pricing-plans-0-description-1" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-right">Process up to 30 invoices per month & add up to 3 members.</span>
+                      </label>
+  
+                      <!-- Checked: "z-10 border-orange-200 bg-orange-50", Not Checked: "border-gray-200" -->
+                      <label class="relative flex cursor-pointer flex-col border p-4 focus:outline-none md:grid md:grid-cols-3 md:pr-6">
+                        <span class="flex items-center text-sm">
+                          <input type="radio" name="pricing-plan" value="Business" class="h-4 w-4 text-orange-500 border-gray-300 focus:ring-gray-900" aria-labelledby="pricing-plans-1-label" aria-describedby="pricing-plans-1-description-0 pricing-plans-1-description-1">
+                          <span id="pricing-plans-1-label" class="ml-3 font-medium text-gray-900">Personal</span>
+                        </span>
+                        <span id="pricing-plans-1-description-0" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center">
+                          <!-- Checked: "text-orange-900", Not Checked: "text-gray-900" -->
+                          <span class="font-medium">RM350 / mo / project</span>
+                          <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                         
+                        </span>
+                        <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                        <span id="pricing-plans-1-description-1" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-right">Process up to 1000 invoices per month & add up to 20 members.</span>
+                      </label>
+  
+                      <!-- Checked: "z-10 border-orange-200 bg-orange-50", Not Checked: "border-gray-200" -->
+                      <label class="rounded-bl-md rounded-br-md relative flex cursor-pointer flex-col border p-4 focus:outline-none md:grid md:grid-cols-3 md:pr-6">
+                        <span class="flex items-center text-sm">
+                          <input type="radio" name="pricing-plan" value="Enterprise" class="h-4 w-4 text-orange-500 border-gray-300 focus:ring-gray-900" aria-labelledby="pricing-plans-2-label" aria-describedby="pricing-plans-2-description-0 pricing-plans-2-description-1">
+                          <span id="pricing-plans-2-label" class="ml-3 font-medium text-gray-900">Pro</span>
+                        </span>
+                        <span id="pricing-plans-2-description-0" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center">
+                          <!-- Checked: "text-orange-900", Not Checked: "text-gray-900" -->
+                          <span class="font-medium">RM600 / mo / project</span>
+                          <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                        
+                        </span>
+                        <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                        <span id="pricing-plans-2-description-1" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-right">Process up to 5000 invoices per month & add up to 100 members.</span>
+                      </label>
+                    </div>
+                  </fieldset>
+
+                </div>
+                <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
+                  <button type="submit" class="inline-flex justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </section>
+  
+
+
+          <section aria-labelledby="plan-heading">
+            <form action="#" method="POST">
+              <div class="shadow sm:overflow-hidden sm:rounded-md">
+                <div class="space-y-6 bg-white px-4 py-6 sm:p-6">
+                  <div>
+                    <h2 id="plan-heading" class="text-lg font-medium leading-6 text-gray-900">Additional Plans</h2>
+                  </div>
+
+                  
+                  <fieldset>
+                    <legend class="sr-only">Additional plans</legend>
+                    <div class="relative -space-y-px rounded-md bg-white">
+                      <!-- Checked: "z-10 border-orange-200 bg-orange-50", Not Checked: "border-gray-200" -->
+                      <label class="rounded-tl-md rounded-tr-md relative flex cursor-pointer flex-col border p-4 focus:outline-none md:grid md:grid-cols-3 md:pr-6">
+                        <span class="flex items-center text-sm">
+                          <input type="radio" name="pricing-plan" value="Startup" class="h-4 w-4 text-orange-500 border-gray-300 focus:ring-gray-900" aria-labelledby="pricing-plans-0-label" aria-describedby="pricing-plans-0-description-0 pricing-plans-0-description-1">
+                          <span id="pricing-plans-0-label" class="ml-3 font-medium text-gray-900">Enhanced OCR AI</span>
+                        </span>
+                        <span id="pricing-plans-0-description-0" class="ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center">
+                          <!-- Checked: "text-orange-900", Not Checked: "text-gray-900" -->
+                          <span class="font-medium">RM0.70 / invoice</span>
+                          <!-- Checked: "text-orange-700", Not Checked: "text-gray-500" -->
+                      </label>
+                    </div>
+                  </fieldset>
+
+                </div>
+                <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
+                  <button type="submit" class="inline-flex justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Contact Us</button>
+                </div>
+              </div>
+            </form>
+          </section>
+          
+        </div>
+      </div>
+    </main>
+  </div>
+  
+      
+</body>
+</html>
